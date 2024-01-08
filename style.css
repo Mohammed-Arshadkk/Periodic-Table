@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    background-color: black; 
+    /* border: 5px solid black; */
+    width: 130vh;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(10,1fr);
+    gap: 1px;
+    padding: 14PX;
+}
+button{
+    border: 2px solid white;
+}
+.space{
+    grid-area: 1/2/2/18;
+}
+.space1{
+    grid-area: 2/3/3/13;
+}
+.space2{
+    grid-area: 3/3/4/13;
+}
+.space3{
+    grid-area: 10/1/11/3;
+}
+.space4{
+    grid-area: 9/18/10/19;
+}
+.space5{
+grid-area: 9/1/10/3;
+}
+.space6{
+grid-area: 9/18/10/19;
+}
+.space7{
+grid-area: 8/1/9/19;
+}
+.blue{
+    background-color: rgb(62, 62, 248);
+}
+.pink{
+    background-color: rgb(253, 45, 160);
+}
+.orange{
+    background-color: orange;
+}
+.LB{
+    background-color: aqua;
+}
+.Y{
+    background-color: rgb(159, 231, 15);
+}
+.R{
+    background-color: red;
+}
+.G{
+    background-color: rgb(61, 243, 61);
+}
+.B1{
+    background-color: rgb(17, 17, 253);
+}
+.Y1{
+    background-color: yellow;
+}
+.OR{
+    background-color: orangered;
+}
+.A1{
+    background-color: rgb(241, 59, 59);
+}
+.A2{
+    background-color: greenyellow;
+}
